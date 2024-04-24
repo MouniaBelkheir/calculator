@@ -11,6 +11,7 @@ body {
 	margin: 0;
 	background: linear-gradient(to right, #3a1d5f, #a50388);
 	overflow: hidden;
+	align-items: center;
 }
 .calculator-grid {
 	display: grid;
