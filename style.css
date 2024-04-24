@@ -16,14 +16,14 @@ body {
 	justify-content: center;
 	align-content: center;
 	min-height: 100vh;
-	grid-template-columns: repeat(4, 100px);
-	grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+	grid-template-columns: repeat(4, 5rem);
+	grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
 }
 .calculator-grid > button {
 	cursor: pointer;
 	font-size: 2rem;
 	background-color: rgba(255, 255, 255, 0.8);
-	border-radius: 50px;
+	border-radius: 50%;
 	border: whitesmoke;
 	margin: 5px;
   text-align: center;
@@ -41,13 +41,12 @@ body {
 	align-items: flex-end;
 	justify-content: space-around;
 	flex-direction: column;
-	padding: 20px;
+	padding: 1.5rem;
 	word-wrap: break-word;
 	word-break: break-all;
 	margin: 5px;
 	border-radius: 25px;
-	width: 400px;
-}
+	}
 .output .previous-operand {
 	color: rgba(255, 255, 255, 0.75);
 	font-size: 1.5rem;
